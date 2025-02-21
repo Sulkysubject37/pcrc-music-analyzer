@@ -1,0 +1,28 @@
+# Core audio processing
+librosa==0.9.2
+pydub==0.25.1
+
+# Genre classification & ML
+musicnn==2.0.2
+tensorflow==2.10.0  # Required for musicnn
+
+# Spotify API integration
+spotipy==2.23.0
+
+# Audio fingerprinting (sample detection)
+dejavu @ git+https://github.com/worldveil/dejavu.git@master
+PyYAML==6.0
+scipy==1.10.1
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Utilities
+numpy==1.24.3
+python-dotenv==1.0.0
+tqdm==4.65.0
+
+# Jupyter Notebook support (optional)
+jupyter==1.0.0
+ipython==8.12.0
